@@ -15,22 +15,6 @@ from socket import socket, AF_INET, SOCK_STREAM, gethostbyname, gaierror
 white, red, yellow, green, END = '\33[;97m', '\33[1;91m', '\33[1;93m', '\33[1;32m', '\33[0m'
 
 
-def banner():
-    '''
-    Show banner of tool checkURL
-    :return: banner
-    '''
-
- 
-    return msg.format(green,END,red,white)
-
-
-
-
-
-
-
-
 
 # main fn
 
